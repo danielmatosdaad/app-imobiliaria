@@ -1,0 +1,6 @@
+package com.br4dev.imob.negocio.entidade;
+
+public enum StatusTransacao {
+
+	CRIADO, AGUARANDO_PROCESSAMENTO, PROCESSAMENTO_INICIADO, PROCESSAMENTO_FINALIZADO, ERRO_AO_PROCESSAR, AGENDADO;
+}
